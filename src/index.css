@@ -1710,7 +1710,7 @@ a.learn-btn {
 
 .history-header .sub {
   color: #333333;
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
   font-weight: 500;
   font-size: 15px;
@@ -1724,126 +1724,6 @@ a.learn-btn {
   box-shadow: 5px 5px 0px #1E1E1E;
   padding: 56px 64px;
   overflow: hidden;
-}
-
-.timeline {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.timeline-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  padding-bottom: 40px;
-  position: relative;
-}
-
-.timeline-item:last-child {
-  padding-bottom: 0;
-}
-
-.timeline-left {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  flex-shrink: 0;
-}
-
-.timeline-line-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 20px;
-  padding-top: 6px;
-}
-
-.timeline-dot-outer {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 2px solid #FF8D4D;
-  background: #FFFFFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  z-index: 1;
-}
-
-.timeline-dot-inner {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #FF8D4D;
-}
-
-.timeline-line {
-  width: 2px;
-  flex: 1;
-  background: #FF8D4D;
-  min-height: 80px;
-  margin-top: 4px;
-  position: absolute;
-  top: 26px;
-  left: 9px;
-  bottom: 0;
-}
-
-.timeline-year-badge {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  background: #FFFFFF;
-  border: 2px solid #262626;
-  border-radius: 10px;
-  padding: 12px 20px;
-  box-shadow: 3px 3px 0px #1E1E1E;
-  min-width: 160px;
-}
-
-.year-dots-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 10px);
-  gap: 4px;
-}
-
-.year-dot-sq {
-  width: 10px;
-  height: 10px;
-  border-radius: 2px;
-  background: #FF8D4D;
-  display: block;
-}
-
-.year-text {
-  font-family: Raleway;
-  font-weight: 800;
-  font-size: 28px;
-  color: #1A1A1A;
-  white-space: nowrap;
-}
-
-.timeline-right {
-  flex: 1;
-  padding-top: 4px;
-}
-
-.timeline-right h3 {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 20px;
-  color: #1A1A1A;
-  margin-bottom: 10px;
-}
-
-.timeline-right p {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 170%;
-  color: #4C4C4D;
-  max-width: 560px;
 }
 
 /* ── TEAM ── */
@@ -2224,15 +2104,8 @@ a.learn-btn {
   font-size: 16px;
   line-height: 165%;
   color: #333333;
+  max-width: 650px;
 }
-
-/* unused legacy */
-.tl-first .tl-track::before, .tl-first .tl-track::after,
-.tl-last .tl-track::before,  .tl-last .tl-track::after,
-.tl-track::before, .tl-track::after,
-.tl-vline-right,
-.tl-wrapper::before, .tl-wrapper::after { display: none; }
-
 
 /* TIMELINE RESPONSIVE*/
 
