@@ -1354,28 +1354,6 @@ a.learn-btn {
   justify-content: center;
 }
 
-/* ── RESPONSIVE: NEW PAGES ── */
-
-@media (max-width: 1024px) {
-
-  .nav-links li {
-    border-left: none;
-    border-bottom: 1px solid #e8e0d8;
-  }
-
-  .nav-link {
-    padding: 14px 20px;
-    width: 100%;
-    height: auto;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-
-  .contact-link {
-    border-radius: 0;
-  }
-}
-
 /* ABOUT PAGE  */
 
 /* ── ABOUT HERO ── */
